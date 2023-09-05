@@ -2,7 +2,7 @@
 
 *{
     margin: 0;
-    padding 0;
+    padding: 0;
     box-sizing: border-box;
     font-family: 'Inter', sans-serif;
 }
@@ -13,6 +13,14 @@
     align-items: center;
     justify-content: center;
     background: #201b2c;
+    position: relative;
+}
+
+.Titulo{
+    color: #77ffc0;
+    position: absolute;
+    top: 10%;
+    font-size: 18pt;
 }
 
 .Left{
@@ -29,4 +37,89 @@
 
 .Left > img{
     max-height: 80%;
+}
+
+.Right{
+    width: 50vw;
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+
+.card{
+    border: 1px solid #77ffc0;
+    width: 60%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    padding: 30px 35px;
+    background: #2f2841;
+    border-radius: 20px;
+    box-shadow: 0px 10px 40px #77ffc0;
+
+}
+
+.card > h1{
+    color: #77ffc0;
+    font-weight: 800;
+    padding-bottom: 10px;
+    padding-top: 0px;
+}
+.textfield{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: flex-start;
+    flex-direction: column;
+    color: #ffffff;
+    margin: 10px 0px;
+}
+
+input{
+    width: 100%;
+    border: none;
+    border-radius: 5px;
+    padding: 10px;
+    font-size: 12pt;
+    outline: none;
+    background: #514869;
+    color: #ffffff;
+    box-shadow: 0px 0px 10px #77ffc0;
+    border: 2px solid transparent;
+}
+
+input::placeholder{
+    color: #f0ffff94;
+}
+
+input:focus{
+    border-color: #77ffc0;
+}
+
+label{
+    color: #f0ffffc0;
+    margin: 5px 0;
+}
+
+.btn-login{
+    margin-top: 7px;
+    width: 100%;
+    padding: 5px 0;
+    border: none;
+    border-radius: 5px;
+    outline: none;
+    font-weight: 600;
+    color:#2b133b;
+    background: #77ffc0;
+    cursor: pointer;
+    letter-spacing: 1px;
+    box-shadow: 0px 5px 400px #77ffc0;
+}
+
+.btn-login:hover{
+    transition: 1s;
+    background: #77ffc0af;
 }
