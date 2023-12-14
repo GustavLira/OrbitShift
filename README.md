@@ -29,7 +29,7 @@ Durante o desenvolvimento deste projeto, enfrentamos e superamos os seguintes de
 
 ## Preview
 
-![preview]
+![Preview Orbitshift](https://github.com/GustavLira/OrbitShift/assets/140671152/daff5759-803d-457e-8b1b-ec6197ab3a8c)
 
 
 ## Deploy
